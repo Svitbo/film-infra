@@ -19,3 +19,9 @@ Other project-specific configs are located in the:
   - Using user account (preferable)
   - Using service account
 - Any Debian-based Linux machine (Debian, Ubuntu, Ubuntu Pro)
+  - `e2-micro` is capable of starting the project, but it noticeably lacks the resources
+  - `e2-small` reduces the build time significantly. Feels much more responsive
+- GitHub Actions expects CE machines to be named in the following way:
+  - `svitbo-dev`
+  - `svitbo-prod`
+  - `(Naming could be changed by updating the organizational-level secrets)`
